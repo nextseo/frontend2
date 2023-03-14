@@ -24,7 +24,7 @@ function App() {
       
         users.map((item, index)=>{
           return(
-            <li>id : {item.id} || lname :{item.fname}</li>
+            <li key={index}>id : {item.id} || lname :{item.fname}</li>
           )
           
         })
